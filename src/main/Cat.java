@@ -32,4 +32,9 @@ public class Cat extends Animal {
     public static void meow() {
         System.out.println(" Meow!");
     }
+
+    @Override
+    public void fly() {
+        System.out.println("Кошки не умеют летать!");
+    }
 }

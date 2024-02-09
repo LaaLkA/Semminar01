@@ -70,6 +70,18 @@ public class Animal {
         return getClass().getSimpleName();
     }
 
+    public void toGo() {
+        System.out.println(getClass().getSimpleName() + " идёт");
+    }
+
+    public void fly() {
+        System.out.println(getClass().getSimpleName() + " летит");
+    }
+
+    public void swim() {
+        System.out.println(getClass().getSimpleName() + " плывёт");
+    }
+
     @Override
     public String toString() {
         return String.format("nickName = %s, bd = %s, owner = %s, illness = %s", nickname,birthDate, owner, illness);

@@ -45,5 +45,17 @@ public class Main {
             index++;
             System.out.println(index + " " + animal);
         }
+
+        Animal duck = new Duck();
+        Animal fish = new Fish();
+        System.out.println(duck);
+        System.out.println(fish);
+        duck.toGo();
+        duck.fly();
+        duck.swim();
+        fish.toGo();
+        fish.fly();
+        fish.swim();
+
     }
 }
