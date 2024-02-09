@@ -6,6 +6,9 @@ public class Owner {
     public Owner(String name) {
         this.name = name;
     }
+    public Owner(){
+        this("Хозяин");
+    }
 
     @Override
     public String toString() {

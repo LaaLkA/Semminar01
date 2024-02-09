@@ -56,6 +56,5 @@ public class Main {
         fish.toGo();
         fish.fly();
         fish.swim();
-
     }
 }
